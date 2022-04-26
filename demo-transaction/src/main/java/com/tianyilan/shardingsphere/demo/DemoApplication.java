@@ -12,7 +12,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 import com.tianyilan.shardingsphere.demo.transaction.TransactionService;
 
-@ComponentScan("com.tianyilan.shardingsphere.demo")
 @MapperScan(basePackages = "com.tianyilan.shardingsphere.demo.repository")
 @SpringBootApplication(exclude = JtaAutoConfiguration.class)
 public class DemoApplication {

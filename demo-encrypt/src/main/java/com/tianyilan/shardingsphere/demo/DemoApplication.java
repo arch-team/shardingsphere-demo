@@ -13,7 +13,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 import com.tianyilan.shardingsphere.demo.service.EncryptUserService;
 
-@ComponentScan("com.tianyilan.shardingsphere.demo")
 @MapperScan(basePackages = "com.tianyilan.shardingsphere.demo.repository")
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, JtaAutoConfiguration.class})
 public class DemoApplication {
